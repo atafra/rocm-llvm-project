@@ -20,8 +20,8 @@ add_llvm_component_library(LLVMOffloadArch
   ADDITIONAL_HEADER_DIRS
     "${LLVM_MAIN_INCLUDE_DIR}/llvm/OffloadArch"
     ${CMAKE_CURRENT_BINARY_DIR}
-  DEPENDS
-    generated-table
+#  DEPENDS
+#    generated-table
   LINK_COMPONENTS
     BinaryFormat
     Core
